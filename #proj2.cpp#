@@ -1,0 +1,89 @@
+//proj2.cpp
+#include <iostream>
+#include <string>
+#include "Board.h"
+#include "Player.h"
+#include "SimpleComputerPlayer.h"
+#include "HumanPlayer.h"
+
+using namespace std;
+
+int main(int argc, char *argv[])
+{
+	string flag1 (argv[1]);
+	string flag2 (argv[2]);
+	//	Player* player1;
+	//	Player* player2;
+	Board board;
+	bool turn = true;
+	cout << "Let's Start a Game of Connect 4" << endl;
+
+	if(flag1 == "-h"){
+		string name1;
+		HumanPlayer player1;
+		//HumanPlayer p1 =  (HumanPlayer*) &player1;
+		//player1 = new HumanPlayer();
+		// HumanPlayer p1;
+		// player1 = p1;
+		cout << "Player One, please enter your name: ";
+		cin >> name1;
+		cout << endl;
+		player1.setName(name1);
+	}else{
+		//SimpleComputerPlayer p1 = (SimpleComputerPlayer*) &player1;
+		// player1 = SimpleComputerPlayer p1;
+		SimpleComputerPlayer player1;
+		player1.setName();
+	}
+
+	if(flag2 == "-h"){
+		string name2;
+	//	HumanPlayer p2 = (HumanPlayer*) &player2;
+		// player2 = HumanPlayer p2;
+		HumanPlayer player2;
+		cout << "Player Two, please enter your name: ";
+		cin >> name2;
+		cout << endl;
+		player2.setName(name2);
+	}else{
+	//	SimpleComputerPlayer p2 = (SimpleComputerPlayer*) &player2;
+		// player2 = SimpleComputerPlayer p2;
+		SimpleComputerPlayer player2;
+		player2.setName();
+	}
+
+	//	player1.setSign("X");
+	//	player2.setSign("O");
+	board.print_Board();
+
+	/*	do{	
+		if(turn){
+			if(flag1 == "-h"){
+			  //			player1.playingGame();
+			}else{
+			  //				player1.playingGame(board);
+			}
+			//			board.update(player1.getPosition(),player1);
+			turn = false;
+		}
+		else{
+			if(flag2 == "-h"){
+			  //				player2.playingGame();
+			}else{
+			  //		player2.playingGame(board);
+			}
+			//	board.update(player2.getPosition(),player2);
+			turn = true;
+		}
+	}
+	while(board.winningGame(player1)||board.winningGame(player2));
+	*/
+	if(turn){
+	  //	player2.getName();
+	}else{
+	  //	player1.getName();
+	}
+	cout << " Connected Four and Wins!" << endl;
+
+	return 0;
+}

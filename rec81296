@@ -1,0 +1,25 @@
+Tan-Yongquan-Chen-Jinghuan-proj2:
+total 652
+-rw-r--r--. 1 ugrad   1901 Apr  5 04:37 blah.cpp
+-rw-r--r--. 1 ugrad      0 Apr  5 04:38 Board1.cpp
+-rw-r--r--. 1 ugrad      0 Apr  5 04:38 Board1.h
+-rw-r--r--. 1 ugrad   8354 Apr  5 04:38 Board.cpp
+-rw-r--r--. 1 ugrad    623 Apr  5 04:38 Board.h
+-rw-r--r--. 1 ugrad 101016 Apr  5 04:38 Board.o
+-rw-r--r--. 1 ugrad    330 Apr  5 04:38 HumanPlayer.cpp
+-rw-r--r--. 1 ugrad    196 Apr  5 04:38 HumanPlayer.h
+-rw-r--r--. 1 ugrad  80464 Apr  5 04:38 HumanPlayer.o
+-rw-r--r--. 1 ugrad    741 Apr  4 14:58 Makefile
+-rw-r--r--. 1 ugrad    479 Apr  5 04:38 Player.cpp
+-rw-r--r--. 1 ugrad    363 Apr  5 04:38 Player.h
+-rw-r--r--. 1 ugrad  79920 Apr  5 04:38 Player.o
+-rw-r--r--. 1 ugrad   1922 Apr  4 15:40 #proj2.cpp#
+-rw-r--r--. 1 ugrad   1010 Apr  5 04:38 proj2.cpp
+-rw-r--r--. 1 ugrad  84752 Apr  5 04:38 proj2.o
+-rwxr-xr-x. 1 ugrad 168417 Apr  5 04:38 proj2.out
+-rw-r--r--. 1 ugrad    314 Apr  5 04:38 readme.txt
+-rw-r--r--. 1 ugrad      0 Apr  5 04:40 rec81296
+-rw-r--r--. 1 ugrad    519 Apr  5 04:38 SimpleComputerPlayer.cpp
+-rw-r--r--. 1 ugrad    270 Apr  5 04:38 SimpleComputerPlayer.h
+-rw-r--r--. 1 ugrad  80200 Apr  5 04:38 SimpleComputerPlayer.o
+/home/ugrads/yongquan/Tan-Yongquan-Chen-Jinghuan-proj2:/home/work/cs1730
